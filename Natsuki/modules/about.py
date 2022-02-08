@@ -1,21 +1,21 @@
 #    Project By TeamNatsuki
 
 __help__ = """
-** ✨ Natsuki - A Powerful Telegram Group Manager ✨ **
+** ✨ Don't read. Not important ✨ **
 
-Powerful Abilities
+keep die
 
-• Group Voice Chat Music Play ❤️
+no mood
 
-• File To Link and URL Upload 📂
+bruh
 
-• Youtube Downloader 🎵
+get lost
 
-• Channel Music Play 🎵
+don't read
 
-Developer [SADEW JAYASEKARA](https://t.me/Itz_Sadew)
+do acually people read?
 
-Support Group [Support](https://t.me/NatsukiSupport_Official)
+ok finally
 
 """
 __mod_name__ = "About ⚡"
