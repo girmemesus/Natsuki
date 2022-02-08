@@ -226,7 +226,7 @@ def temp_ban(update: Update, context: CallbackContext) -> str:
             raise
 
     if user_id == bot.id:
-        message.reply_text("I'm not gonna BAN myself, are you crazy?")
+        message.reply_text("Seems like wan't ban me :)")
         return log_message
 
     if is_user_ban_protected(chat, user_id, member):
@@ -287,7 +287,7 @@ def temp_ban(update: Update, context: CallbackContext) -> str:
                 chat.id,
                 excp.message,
             )
-            message.reply_text("Well damn, I can't ban that user.")
+            message.reply_text("Welp, I can't ban that user.")
 
     return log_message
 
@@ -401,7 +401,7 @@ def kick(update: Update, context: CallbackContext) -> str:
             raise
 
     if user_id == bot.id:
-        message.reply_text("Yeahhh I'm not gonna do that.")
+        message.reply_text("Bruh I'm not gonna do that.")
         return log_message
 
     if is_user_ban_protected(chat, user_id):
@@ -428,7 +428,7 @@ def kick(update: Update, context: CallbackContext) -> str:
         return log
 
     else:
-        message.reply_text("Well damn, I can't kick that user.")
+        message.reply_text("Welp, I can't kick that user.")
 
     return log_message
 
